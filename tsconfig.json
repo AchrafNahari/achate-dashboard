@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        achate: {
+          beige: '#F8F2E2',
+          turquoise: '#50B5BA',
+          teal: '#098480',
+          'pale-turquoise': '#B8DEE0',
+          yellow: '#FCDB51',
+          orange: '#FC7A38',
+          gray: '#252525',
+        },
+      },
+      fontFamily: {
+        thermal: ['Thermal VF', 'Georgia', 'serif'],
+        neulis: ['Neulis Sans', 'Inter', 'system-ui', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
